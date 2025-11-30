@@ -13,7 +13,7 @@ dns=true # changes DNS
 
 [advanced.activate_win10]
 win10_edition="Professional"
-kms_server="kms.lotro.cc"
+kms_server="your_kms.com"
 
 [advanced.screen_resolution]
 change_resolution_x=1920

@@ -11,8 +11,7 @@ A comprehensive optimization tool for Windows 10/11
 
 
 ## How to Use
-First, you need an `optimizer.toml` file. There is already one included in the program. You can create your own by looking at that example and checking the documentation on this GitHub page.  
-After that, simply run:
+First, you need an `optimizer.toml` file. The program already has one. You can create your own file by examining this example.  After that, simply run:
 
 
 

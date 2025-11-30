@@ -1,0 +1,120 @@
+[general]
+activate_win10=true # does this using a KMS server
+screen_resolution=true # lowers the screen resolution to reasonable levels
+DEP=true # disables Windows DEP
+remove=true # removes some bundled Windows bloat programs
+dont_track_me=true # disables Windows telemetry
+tempory_files_remove=true # deletes temp files and also startup items
+disable_unnecessary_services=true # disables unnecessary services
+install_app=true # installs required programs via winget
+dns=true # changes DNS
+
+[advanced]
+
+[advanced.activate_win10]
+win10_edition="Professional"
+kms_server="kms.lotro.cc"
+
+[advanced.screen_resolution]
+change_resolution_x=1920
+change_resolution_y=1080
+
+[advanced.remove]
+
+#WARNING
+#Do not change this unless you know what you’re doing!!!
+#I am not responsible for any errors
+edge_remove=true
+programs_to_be_deleted = [
+    "Microsoft.OneDrive",
+    "icrosoft.MicrosoftSolitaireCollection",
+    "Microsoft.WindowsNotepad",
+    "Microsoft.WindowsAlarms",
+    "Microsoft.WindowsFeedbackHub",
+    "Microsoft.WindowsCalculator",
+    "Microsoft.GetHelp",
+    "Microsoft.BingWeather",
+    "Microsoft.Todos",
+    "Microsoft.OutlookForWindows",
+    "Microsoft.WindowsCamera",
+    "Microsoft.WindowsSoundRecorder",
+    "MSTeams",
+    "Microsoft.Windows.Photos",
+    "Microsoft.MicrosoftOfficeHub",
+    "Microsoft.YourPhone",
+    "Microsoft.ScreenSketch",
+    "Microsoft.Paint",
+    "Microsoft.ZuneMusic",
+    "Microsoft.BingNews",
+    "Microsoft.BingSearch",
+    "Microsoft.PowerAutomateDesktop",
+    "Clipchamp.Clipchamp",
+    "Microsoft.MicrosoftStickyNotes",
+    "Microsoft.Windows.DevHome",
+    "MicrosoftCorporationII.QuickAssist",
+    "MicrosoftWindows.Client.Photon",
+    "MicrosoftWindows.Client.CoreAI",
+    "Microsoft.Windows.CapturePicker",
+    "Microsoft.MicrosoftEdgeDevToolsClient",
+    "Microsoft.LockApp"
+]
+
+[advanced.disable_unnecessary_services]
+service_list=[ ##you may get errors, be careful!!
+    "DiagTrack",
+    "dmwappushservice",
+    "MapsBroker",
+    "Fax",
+    "WbioSrvc",
+    "RetailDemo",
+    "XblAuthManager",
+    "XblGameSave",
+    "XboxNetApiSvc",
+    "XboxGipSvc",
+    "SharedAccess",
+    "RemoteRegistry",
+    "PhoneSvc",
+    "PrintNotify",
+    "Spooler",
+    "TabletInputService",
+    "WerSvc",
+    "wisvc",
+    "WSearch",
+    "PcaSvc",
+    "TrkWks",
+    "SSDPSRV",
+    "upnphost",
+    "WMPNetworkSvc",
+    "SCardSvr",          # Smart Card
+    "HvHost",            # Hyper-V virtualization
+    "icssvc",            # Windows Mobile Hotspot
+    "BthHFSrv",          # Bluetooth Handsfree
+    "BcastDVRUserService",
+    "autotimesvc",
+]
+
+[advanced.install_app]
+install_method="winget"
+Programs_to_be_installed=[
+    "VideoLAN.VLC", # open source. unbeatable for video playback
+    "KDE.KDEConnect", # better than Windows Phone, open source
+    "LocalSend.LocalSend", # open-source cross-platform file transfer tool
+    "OBSProject.OBSStudio", # open-source screen recording program
+    "Zen-Team.Zen-Browser", # an open-source next-gen browser
+    "Cisco.ClamAV", # open-source antivirus, note: scanning only
+    "VSCodium.VSCodium", # open-source IDE
+    "KeePassXCTeam.KeePassXC", # open-source password manager
+    "Obsidian.Obsidian", # perfect for network-style note taking, like a personal wiki
+    "qBittorrent.qBittorrent", # open-source torrent client
+    "7zip.7zip", # open-source zip program, unmatched
+    "voidtools.Everything", # ideal when you can't find a file
+    "Rufus.Rufus", # no explanation needed. must-have tool
+    "Playnite.Playnite", # all game launchers in one place
+    "Sandboxie.Plus", # whatever a virus does, you can undo with one click — sandbox environment
+    "MullvadVPN.MullvadVPN", # a rock-solid VPN service
+    "Klocman.BulkCrapUninstaller" # free advanced program uninstaller
+]
+
+[advanced.dns]
+adapter_name="Wifi"
+dns_change=["1.1.1.1"]

@@ -30,7 +30,7 @@ After that, simply run:
 
 
 ```cmd
-Winoptimizer0.0.1.exe —cf your_optimizer.toml
+Winoptimizer.exe —cf your_optimizer.toml
 
 ```
 

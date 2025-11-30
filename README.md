@@ -14,6 +14,7 @@ A comprehensive optimization tool for Windows 10/11
 First, you need an `optimizer.toml` file. There is already one included in the program. You can create your own by looking at that example and checking the documentation on this GitHub page.  
 After that, simply run:
 
+![gif]gifs/demo.gif
 ```cmd
 Winoptimizer0.0.1.exe —cf your_optimizer.toml
 

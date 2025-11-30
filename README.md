@@ -1,6 +1,12 @@
 
 
 ![Python](https://badgen.net/badge/icon/3.12.0?icon=https://www.svgrepo.com/show/452091/python.svg&label=python)
+
+
+
+
+
+
 A comprehensive optimization tool for Windows 10/11
 
 

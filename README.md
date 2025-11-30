@@ -17,6 +17,20 @@ After that, simply run:
 ![Demo](demo.gif)
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ```cmd
 Winoptimizer0.0.1.exe —cf your_optimizer.toml
 

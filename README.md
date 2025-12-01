@@ -5,20 +5,20 @@
 
 
 
-
+[Türkçe](tr_md/readme_tr.md)
 
 A comprehensive optimization tool for Windows 10/11
 
 
 ## How to Use
-First, you need an `optimizer.toml` file. The program already has one. You can create your own file by examining this example.  After that, simply run:
+First, you need an `optimizer.toml` file. The program already includes one, but you can create your own by examining this example. See the [document](how_to_make_custom_profil_en.md) for more details. After that, simply run:
 
 
 
 
 
 
- ![demo](demo_1.png)
+ ![demo](https://raw.githubusercontent.com/cem-ali152/winoptimize-tools/refs/heads/main/demo_1.png)
 
 
 

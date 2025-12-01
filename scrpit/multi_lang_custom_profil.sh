@@ -6,7 +6,7 @@ diller=("russian" "chinese" "english" "german")
 
 curl -s https://raw.githubusercontent.com/cem-ali152/winoptimize-tools/refs/heads/main/tr_md/how_to_make_custom_profil_tr.md > ./how_to_make_custom_profil_tr.md
 dosya="./how_to_make_custom_profil_tr.md"
-echo "readme.md indirildi"
+echo "how_to_make_custom_profil_tr.md indirildi"
 
 git_raw=$(<"$dosya")
 

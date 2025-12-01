@@ -1,10 +1,10 @@
 ![Python](https://badgen.net/badge/icon/3.12.0?icon=https://www.svgrepo.com/show/452091/python.svg\&label=python)
 
 A comprehensive optimization tool for **Windows 10/11**
-
+[Türkçe](tr_md/readme_tr.md)
 ## Usage
 
-First, you need an `optimizer.toml` file. The program already comes with a default `optimizer.toml`. You can check out [this example](https://github.com/cem-ali152/winoptimize-tools/blob/main/default.toml) to create your own file or follow [this guide](how_to_make_custom_profil_tr.md).
+First, you need an `optimizer.toml` file. The program already comes with a default `optimizer.toml`. You can check out [this example](https://github.com/cem-ali152/winoptimize-tools/blob/main/default.toml) to create your own file or follow [this guide](how_to_make_custom_profil_en.md).
 
 Then, all you need to do is:
 

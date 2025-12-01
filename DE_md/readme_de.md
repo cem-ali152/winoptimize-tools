@@ -4,7 +4,7 @@ Umfassendes Optimierungstool für Windows 10/11
 
 ## Verwendung
 
-Zuerst benötigen Sie eine `optimizer.toml`-Datei. Das Programm wird bereits mit einer `optimizer.toml` geliefert. Sie können dieses [Beispiel](https://github.com/cem-ali152/winoptimize-tools/blob/main/default.toml) ansehen, um Ihre eigene Datei zu erstellen, oder [diese Anleitung](how_to_make_custom_profil_tr.md) verwenden. Anschließend müssen Sie nur Folgendes tun:
+Zuerst benötigen Sie eine `optimizer.toml`-Datei. Das Programm wird bereits mit einer `optimizer.toml` geliefert. Sie können dieses [Beispiel](https://github.com/cem-ali152/winoptimize-tools/blob/main/default.toml) ansehen, um Ihre eigene Datei zu erstellen, oder [diese Anleitung](how_to_make_custom_profil_de.md) verwenden. Anschließend müssen Sie nur Folgendes tun:
 
 ![demo](https://raw.githubusercontent.com/cem-ali152/winoptimize-tools/refs/heads/main/demo_1.png))
 

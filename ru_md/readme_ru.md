@@ -6,7 +6,7 @@
 
 Сначала у вас должен быть файл `optimizer.toml`. Программа уже поставляется с файлом `optimizer.toml`. Вы можете изучить этот [пример](https://github.com/cem-ali152/winoptimize-tools/blob/main/default.toml), чтобы создать свой файл, или посмотреть [это руководство](how_to_make_custom_profil_ru.md). Затем нужно всего лишь:
 
-![demo](https://raw.githubusercontent.com/cem-ali152/winoptimize-tools/refs/heads/main/demo_1.png))
+![demo](https://raw.githubusercontent.com/cem-ali152/winoptimize-tools/refs/heads/main/demo_1.png)
 
 ```cmd
 Winoptimizer.exe —cf your_optimizer.toml

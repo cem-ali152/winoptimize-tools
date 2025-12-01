@@ -396,7 +396,7 @@ class arg_config_main:
 
 if __name__=="__main__":
 
-    t=Term(ascii_art=ascıı,explanation="Optimization program for Windows 10")
+    t=Term(ascii_art=ascıı,explanation="Optimization program for Windows 10\11")
 
     if len(sys.argv)==1:
         print("--cf with the optimizer.toml file")

@@ -4,7 +4,7 @@
 
 ## 使用方法
 
-首先，您需要一个 `optimizer.toml` 文件。程序已经附带了一个 `optimizer.toml` 文件。您可以查看这个示例文件 [这里](https://github.com/cem-ali152/winoptimize-tools/blob/main/default.toml) 来创建自己的文件，或者参考 [这个教程](how_to_make_custom_profil_tr.md)。然后，您只需要运行：
+首先，您需要一个 `optimizer.toml` 文件。程序已经附带了一个 `optimizer.toml` 文件。您可以查看这个示例文件 [这里](https://github.com/cem-ali152/winoptimize-tools/blob/main/default.toml) 来创建自己的文件，或者参考 [这个教程](how_to_make_custom_profil_ch.md)。然后，您只需要运行：
 
 ![demo](https://raw.githubusercontent.com/cem-ali152/winoptimize-tools/refs/heads/main/demo_1.png)
 

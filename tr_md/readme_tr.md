@@ -3,15 +3,15 @@
 Windows 10/11 için kapsamlı bir optimizasyon aracı
 
 ## Kullanım
-Öncelikle bir `optimizer.toml` dosyanız olması gerekiyor. Program zaten bir dosya ile geliyor. Bu örneği inceleyerek kendi dosyanızı oluşturabilirsiniz. Ardından, tek yapmanız gereken:
+Öncelikle bir `optimizer.toml` dosyanız olması gerekiyor. Program zaten bir dosya ile geliyor. Bu örneği inceleyerek kendi dosyanızı oluşturabilirsiniz yada [bunu](how_to_make_custom_profil_en.md) inceleyebilirsiniz Ardından, tek yapmanız gereken:
 
-![demo](demo_1.png)
+![demo](https://raw.githubusercontent.com/cem-ali152/winoptimize-tools/refs/heads/main/demo_1.png))
 
 ```cmd
 Winoptimizer.exe —cf your_optimizer.toml
 ````
 
-Hepsi bu kadar.
+Hepsi bu kadar!!
 
 ## Kullanım Şartları
 

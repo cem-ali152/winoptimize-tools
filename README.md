@@ -1,7 +1,9 @@
 ![Python](https://badgen.net/badge/icon/3.12.0?icon=https://www.svgrepo.com/show/452091/python.svg\&label=python)
 
 A comprehensive optimization tool for **Windows 10/11**
-##language
+
+## language
+
 [Türkçe](tr_md/readme_tr.md),[русский](ru_md/readme_ru.md)
 ## Usage
 

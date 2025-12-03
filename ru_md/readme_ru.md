@@ -1,25 +1,42 @@
-![Python](https://badgen.net/badge/icon/3.12.0?icon=https://www.svgrepo.com/show/452091/python.svg\&label=python)
+## ![Python](https://badgen.net/badge/icon/3.12.0?icon=https://www.svgrepo.com/show/452091/python.svg&label=python)
 
 Комплексный инструмент оптимизации для Windows 10/11
 
 ## Использование
+Прежде всего, вам нужен файл `optimizer.toml`. В комплекте с программой уже идет файл `optimizer.toml`.  Вы можете создать свой собственный, изучив этот [пример](https://github.com/cem-ali152/winoptimize-tools/blob/main/default.toml) или [этот](how_to_make_custom_profil_tr.md). Затем вам просто нужно:
 
-Сначала у вас должен быть файл `optimizer.toml`. Программа уже поставляется с файлом `optimizer.toml`. Вы можете изучить этот [пример](https://github.com/cem-ali152/winoptimize-tools/blob/main/default.toml), чтобы создать свой файл, или посмотреть [это руководство](how_to_make_custom_profil_ru.md). Затем нужно всего лишь:
-
-![demo](https://raw.githubusercontent.com/cem-ali152/winoptimize-tools/refs/heads/main/demo_1.png)
+![demo](https://raw.githubusercontent.com/cem-ali152/winoptimize-tools/refs/heads/main/demo_1.png))
 
 ```cmd
 Winoptimizer.exe —cf your_optimizer.toml
+````
+
+Вот и все!!
+## Сборка кода
+
+Во-первых, должен быть установлен **Python 3.12** (другая версия в настоящее время не тестировалась). Рекомендуется создать **виртуальную среду Python** (например, `conda` или `venv`).
+
+После входа в виртуальную среду установите необходимые зависимости:
+
+```cmd
+pip install -r requirements.txt
 ```
 
-Вот и всё!!
+Таким образом, код станет исполняемым.
+
+При желании вы можете использовать следующую команду для создания **исполняемого файла**:
+
+```cmd
+pip install pyinstaller & pyinstaller main.py
+```
 
 ## Условия использования
 
-Если вы не знаете, что делаете, пожалуйста, не создавайте свой собственный файл optimizer.toml.
-При использовании Windows авторы программы не несут никакой ответственности за любые ошибки.
+Пожалуйста, не создавайте свой собственный файл optimizer.toml, если вы не знаете, что делаете.
+Ни при каких обстоятельствах не будет принята ответственность за любые ошибки, с которыми вы столкнетесь при использовании Windows.
 
 ## Поддержка
 
-Если вы хотите поддержать проект и помочь ему развиваться, даже небольшой донат будет полезен.
-Помните, этот проект развивается благодаря вашим вкладом.
+Если вы хотите поддержать проект и помочь ему расти, вы можете даже сделать небольшое пожертвование.
+Помните, этот проект развивается благодаря вашему вкладу.
+

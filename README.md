@@ -45,6 +45,8 @@ If you don’t know what you are doing, please do **not** create your own `optim
 ## Support
 
 If you want to support the project and help it grow, even a small donation is appreciated. Remember, this project develops thanks to contributions from users like you.
+
+
 <a href="https://www.buymeacoffee.com/cecmad2l"><img src="https://cdn.buymeacoffee.com/buttons/default-yellow.png" width="200"/></a>
 
 ---

@@ -21,7 +21,23 @@ Winoptimizer.exe —cf your_optimizer.toml
 ```
 
 That's it!
+## Compiling the Code
 
+First, **Python 3.12** must be installed (a different version has not been tested at this time). It is recommended that you create a **Python virtual environment** (e.g., `conda` or `venv`).
+
+After entering the virtual environment, install the necessary dependencies:
+
+```cmd
+pip install -r requirements.txt
+```
+
+This will make the code executable.
+
+If you want, you can use the following command to create an **executable file**:
+
+```cmd
+pip install pyinstaller & pyinstaller main.py
+```
 ## Terms of Use
 
 If you don’t know what you are doing, please do **not** create your own `optimizer.toml` file. The developer assumes **no responsibility** for any issues or errors that may occur while using Windows.

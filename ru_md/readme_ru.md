@@ -3,7 +3,7 @@
 Комплексный инструмент оптимизации для Windows 10/11
 
 ## Использование
-Прежде всего, вам нужен файл `optimizer.toml`. В комплекте с программой уже идет файл `optimizer.toml`.  Вы можете создать свой собственный, изучив этот [пример](https://github.com/cem-ali152/winoptimize-tools/blob/main/default.toml) или [этот](how_to_make_custom_profil_tr.md). Затем вам просто нужно:
+Прежде всего, вам нужен файл `optimizer.toml`. В комплекте с программой уже идет файл `optimizer.toml`.  Вы можете создать свой собственный, изучив этот [пример](https://github.com/cem-ali152/winoptimize-tools/blob/main/default.toml) или [этот](how_to_make_custom_profil_ru.md). Затем вам просто нужно:
 
 ![demo](https://raw.githubusercontent.com/cem-ali152/winoptimize-tools/refs/heads/main/demo_1.png))
 

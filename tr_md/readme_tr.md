@@ -12,6 +12,24 @@ Winoptimizer.exe —cf your_optimizer.toml
 ````
 
 Hepsi bu kadar!!
+## Kodu Derleme
+
+Öncelikle **Python 3.12** kurulu olmalıdır (farklı bir sürüm şu an test edilmemiştir). Tercihen bir **Python sanal ortamı** oluşturmanız önerilir (örneğin `conda` veya `venv`).
+
+Sanal ortama girdikten sonra, gerekli bağımlılıkları yükleyin:
+
+```cmd
+pip install -r requirements.txt
+```
+
+Böylece kod çalıştırılabilir hale gelecektir.
+
+İsterseniz, **çalıştırılabilir dosya** oluşturmak için aşağıdaki komutu kullanabilirsiniz:
+
+```cmd
+pip install pyinstaller & pyinstaller main.py
+```
+
 
 ## Kullanım Şartları
 

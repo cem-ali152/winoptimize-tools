@@ -17,6 +17,7 @@ class arg_config_main(term.Term):
         self.disable_unnecessary_services=self.config["general"]["disable_unnecessary_services"]
         self.install_app=self.config["general"]["install_app"]
         self.dns=self.config["general"]["dns"]
+        self.tweak=self.config["general"]["tweak"]
         
     def main_task(self):
         app1=app.app()
@@ -72,4 +73,9 @@ class arg_config_main(term.Term):
                 app1.dns_change(dns1=self.dns_change,adapter_name=self.adapter_name)
             except KeyError:
                 self.t.error("The config file is broken!")
-         
+        if self.tweak:
+            try:
+                self.tweak=self.config["advanced"]["tweak"]
+                app1.tweak(self.tweak)
+            except KeyError:
+                self.t.error("The config file is broken!")

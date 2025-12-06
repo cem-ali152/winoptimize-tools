@@ -3,6 +3,7 @@ import term
 import os
 from pathlib import Path
 import shutil
+import tempfile
 class app(term.Term):
 
     def __init__(self):
@@ -100,6 +101,52 @@ class app(term.Term):
                 errors="ignore",
             )
             self.term.işlem_başarılı()
+    def list_twk_files(self, folder_path):
+        return [f for f in os.listdir(folder_path) if f.endswith(".twk")]
+
+
+    def tweak(self, tweak):
+        self.term.task_info(f"Tweaks: {len(tweak)}")
+
+        folder_path = ".\\tweak"
+        temp_dir = tempfile.gettempdir()
+
+        tweak_files = self.list_twk_files(folder_path)
+
+        for tf_name in tweak_files:
+            tf_path = os.path.join(folder_path, tf_name)
+            self.task_info(f"TWK: {tf_path}")
+
+            with open(tf_path, "r", encoding="utf-8") as f:
+                content = f.read()
+
+            for key, value in tweak.items():
+                placeholder = "{" + key + "}"
+                content = content.replace(placeholder, str(value))
+
+            lines = content.splitlines()
+            new_lines = []
+
+            for line in lines:
+                if line.strip():
+                    new_lines.append(f"Set-ItemProperty -Path {line}")
+                else:
+                    new_lines.append("")
+
+            content = "\n".join(new_lines)
+
+            output_ps = os.path.join(temp_dir, f"{tf_name}.ps1")
+            with open(output_ps, "w", encoding="utf-8") as f:
+                f.write(content)
+
+            islem = subprocess.run(
+                ["powershell", "-ExecutionPolicy", "Bypass", "-File", output_ps],
+                capture_output=True,
+                text=True
+            )
+
+                    
+        
 
 
 

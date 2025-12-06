@@ -1,0 +1,2 @@
+"HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\OEMInformation" -Name "Manufacturer" -Value "{Manufacturer}" -Type String
+"HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\OEMInformation" -Name "Model" -Value "{model_number}" -Type String

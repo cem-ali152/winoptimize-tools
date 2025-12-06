@@ -118,3 +118,8 @@ Programs_to_be_installed=[
 [advanced.dns]
 adapter_name="Wifi"
 dns_change=["1.1.1.1"]
+
+[advanced.tweak]
+#demo
+Manufacturer="cemo"
+model_number="cemo"
